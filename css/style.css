@@ -2,6 +2,10 @@ body {
     font-family: 'Roboto';font-size: 22px; 
 }
 
+a {
+    font-family: arial,sans-serif;
+}
+
 /*Basic Structure*/
 
 .container
@@ -15,6 +19,7 @@ body {
     padding-bottom: 28px;
 }
 #searchBar{
+    background-color: white;
     width: 585px;
     justify-self: center;
     align-self: center;
@@ -24,6 +29,7 @@ body {
     display: grid;
     grid-template-columns: 38px 500fr 37px;
     gap: 10px;
+    z-index: 3;
 }
 
 #searchBar:hover{
@@ -57,7 +63,6 @@ body {
     text-align: right;
     align-self: end;
     padding-right: 20px;
-    font-family: 'Roboto';font-size: 22px;
 }
 
 #photoU{
@@ -74,6 +79,7 @@ body {
 #buttons{
     padding: 35px;
     justify-self: center;
+    z-index: 3;
 }
 /*Basic Structure*/
 
@@ -149,7 +155,6 @@ footer{
     color:  rgb(102, 102, 102);
     width: 100%;
     min-width: 800px;
-    font-family: arial,sans-serif;
     font-size: 22px; 
 }
 
@@ -182,6 +187,7 @@ footer li >a{
  }
 
  #menuBottom{
+    background-color: white;
     display: grid;
     grid-template-columns: 1fr 1fr;
     align-items: center;
@@ -201,6 +207,7 @@ footer li >a{
 }
 
 #country {
+    background-color: white;
     font-size: 15px;
     padding: 13px;
     padding-left: 30px;
