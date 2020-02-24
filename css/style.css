@@ -1,0 +1,227 @@
+body { 
+    font-family: 'Roboto';font-size: 22px; 
+}
+
+/*Basic Structure*/
+
+.container
+{
+    display: grid;
+    grid-template-rows: 58px 220px 35px 100px;
+}
+#doodle {
+    justify-self: center;
+    align-self: end;
+    padding-bottom: 28px;
+}
+#searchBar{
+    width: 585px;
+    justify-self: center;
+    align-self: center;
+    border:0.5px solid rgb(223, 223, 223);
+    border-radius: 28px;
+    height: 45px;
+    display: grid;
+    grid-template-columns: 38px 500fr 37px;
+    gap: 10px;
+}
+
+#searchBar:hover{
+    border-color: rgb(235, 235, 235);
+    box-shadow: 0px 2px 2px rgb(219, 219, 219);
+}
+
+#searchBar i {
+    justify-self: right;
+    align-self: center;
+    padding-left: 10px;
+    font-size: 20px;
+}
+
+#color-mic {
+   justify-self: left;
+   align-self: center;
+}
+
+#searchInput {
+    font-size: 15px;
+    border: none;
+    align-self: center;
+}
+
+#searchInput:focus {
+    outline: none;
+}
+
+#mainTop{
+    text-align: right;
+    align-self: end;
+    padding-right: 20px;
+    font-family: 'Roboto';font-size: 22px;
+}
+
+#photoU{
+    background-color: rgb(81, 162, 216);
+    color: cornsilk;
+    display: table-cell;
+    vertical-align: middle;
+    border-radius: 30px;
+    font-size: 25px;
+    height: 32px;
+    width: 32px;
+    text-align: center;
+}
+#buttons{
+    padding: 35px;
+    justify-self: center;
+}
+/*Basic Structure*/
+
+
+
+/**Menu Header **/
+
+#mainTop li{
+    display: inline-block;
+    padding: 10px 10px 10px 0px;
+    font-size: 13px;
+    text-align: center;
+    vertical-align: middle;
+ }
+ 
+#mainTop a{
+     text-decoration: none;
+     color:  rgb(46, 46, 46);
+  }
+ 
+#mainTop a:visited{
+     color: rgb(46, 46, 46);
+  }
+ 
+#mainTop a:hover{
+     text-decoration: underline;
+     color: rgb(66, 66, 66);
+  }
+
+
+/****** Buttons *******/
+button {
+  background-color: white; /* Green */
+  display: inline;
+  border: 1px solid rgb(255, 255, 255);
+  border-radius: 5px;
+  color: rgb(112, 112, 112);
+  font-size: 14px;
+  text-align: center;
+  padding: 8px 14px 8px 14px;
+  text-shadow: 0px 0px 0.3px gray;
+
+}
+
+button:hover{
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    color: rgb(36, 36, 36);
+}
+
+button:focus{
+outline: none;
+border-radius: 5px;
+border: 1px solid rgb(76, 156, 209);
+}
+/****** Buttons *******/
+
+/* */
+#color-mic{
+    height: 24px;
+    width: 24px;
+    background: url('../resources/googleMic.png') no-repeat;
+    background-size: 24px;
+}
+/* */
+
+/** Footer**/
+
+footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    color:  rgb(102, 102, 102);
+    width: 100%;
+    min-width: 800px;
+    font-family: arial,sans-serif;
+    font-size: 22px; 
+}
+
+
+footer hr{
+    border: 0.3px solid rgb(223, 223, 223);
+    margin: 0;
+    height: 0.3px;
+}
+
+
+footer li{
+   display: inline-block;
+   padding: 0px 0px 0px 20px;
+   font-size: 13px;
+   vertical-align: middle;
+}
+
+footer li >a{
+    text-decoration: none;
+ }
+
+ footer li >a:visited{
+    color:  rgb(102, 102, 102);
+ }
+
+ footer li>a:hover{
+    text-decoration: underline;
+    color: rgb(102, 102, 102);
+ }
+
+ #menuBottom{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+ }
+
+ #menuFR {
+    justify-self: right;
+    min-width: 300px;
+    padding-right: 10px;
+ }
+
+ #menuFL {
+    min-width: 500px;
+    padding-left: 10px;
+}
+
+#country {
+    font-size: 15px;
+    padding: 13px;
+    padding-left: 30px;
+}
+
+ /** Footer**/
+
+
+ /*** Icons ****/
+i.material-icons {
+    color: rgb(170, 170, 170);
+    }
+
+i.material-icons.gray {
+    color: rgb(110, 110, 110);
+    display: inline-block;
+    vertical-align: bottom;
+    }
+i.material-icons.gray:hover {
+    text-decoration: none;
+
+    }
+/*** Icons ****/
+
